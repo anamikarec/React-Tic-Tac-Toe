@@ -1,0 +1,22 @@
+.square{
+    height:100px;
+    width: 100px;
+    border:4px solid black ;
+    /* display: inline-block; */
+    margin:-2px;
+    background-color:antiquewhite;
+}
+.square:hover{
+    background-color:yellow;
+}
+.square p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:red;
+    /* color:blue; */
+}
+.container{
+    width:300px;
+    margin:auto;
+}
